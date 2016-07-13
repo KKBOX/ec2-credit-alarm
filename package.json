@@ -1,0 +1,28 @@
+{
+  "name": "ec2-credit-alarm",
+  "version": "0.1.0",
+  "description": "Automatically manage CloudWatch alarm for EC2 instance credit balance.",
+  "main": "index.js",
+  "dependencies": {
+    "asyncawait": "^1.0.3",
+    "aws-sdk": "^2.4.0",
+    "bluebird": "^3.4.0",
+    "config": "^1.21.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KKBOX/ec2-credit-alarm.git"
+  },
+  "keywords": [
+    "ec2",
+    "lambda",
+    "cloudwatch"
+  ],
+  "author": "Rianol Jou <rianol.jou@gmail.com>",
+  "license": "MIT"
+}
