@@ -1,0 +1,21 @@
+{
+    "AWS": {
+        "Region": ""
+    },
+    "Alarm": {
+        "AlarmSuffix": " CPU Credit Balance",
+        "Thresholds": {
+            "t2.nano": 30,
+            "t2.micro": 30,
+            "t2.small": 30,
+            "t2.medium": 60,
+            "t2.large": 60
+        },
+        "OKActions": [
+        ],
+        "AlarmActions": [
+        ],
+        "InsufficientDataActions": [
+        ]
+    }
+}
